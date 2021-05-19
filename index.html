@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tic-Tac-Toe-Yasin</title>
+</head>
+<body>
+    <main id='main'>
+        <header id="header">
+            <h1>TIC TAC TOE</h1>
+        </header>
+
+        <!-- before game start -->
+       <div id='front'>
+        <section id='choice-1'>
+            <h2 style="text-align:center">Choose Player 1</h2>
+            <div class='boy boys-1' id='player-1'>
+                <img src="http://vignette3.wikia.nocookie.net/zzmans-guide-to-coc/images/3/39/PEKKA.png/revision/latest?cb=20141127171104" alt="">
+                <p>PEKKA</p>
+            </div>
+            <div class='boy boys-1' id='player-2'>
+                <img src="https://pluspng.com/img-png/clash-of-clans-hd-png-clash-of-clans-barbarian-king-png-png-image-1950.png" alt="">
+                <p>BARBARIAN</p>
+            </div>
+            <div class='boy boys-1' id='player-3'>
+                <img src="https://coc.guide/static/imgs/og/troop/wizard.png" alt="">
+                <p>WIZARD</p>
+            </div>
+            <div class='boy boys-1' id='player-4'>
+                <img src="https://vignette.wikia.nocookie.net/clashofclans/images/b/be/Brady55_Wizard.png/revision/latest?cb=20151215105023" alt="">
+                <p>BRADDY</p>
+            </div>
+        </section>
+        <section class="boy" id="player-1-img"></section>
+        <section id="vs">
+            <img src="https://thumbs.dreamstime.com/x/versus-icon-flares-isolated-logo-competition-symbol-vs-red-blue-lights-vector-eps-74423878.jpg" alt="vs">
+        </section>
+        <section class="boy" id="player-2-img"></section>
+        <section id='choice-2'>
+            <h2 style="text-align:center">Choose Player 2</h2>
+            <div  class='boy boys-2' id='playerr-1'>
+                <p>DHONGI</p>
+                <img src="http://vignette3.wikia.nocookie.net/clashofclans/images/2/2d/Clash_Archer_03.png/revision/latest?cb=20150506001157" alt="">
+            </div>
+            <div class='boy boys-2' id='playerr-2'>
+                <p>STONER</p>
+                <img src="https://i.pinimg.com/originals/a9/32/43/a93243fb2988049596057aad80a9b2ce.png" alt="">
+            </div>
+            <div class='boy boys-2' id='playerr-3'>
+                <p>CHOR</p>
+                <img src="https://i.pinimg.com/originals/ed/b1/eb/edb1eb9fa4e0e14676a272006a796369.png" alt="">
+            </div>
+            <div class='boy boys-2' id='playerr-4'>
+                <p>YASIN</p>
+                <img src="./images/yasin.png" alt="">
+            </div>
+        </section>
+       </div>
+       <!-- before game start end -->
+
+       <!-- game board section -->
+       <div id="board">
+            <section id='board-players'>
+                <div class="board-player-1">
+                    <img id="img-1" src="" alt="number1">
+                    <h1 id='number1'>Name of Player 1<span>X</span></h1>
+                </div>
+                <div class="board-player-2">
+                    <h1 id=number2>Name of Player 2<span>O</span></h1>
+                    <img id="img-2" src="" alt="number2">
+                </div>
+            </section>
+            <section id='main-board'>
+                <div class="first-part"><h1></h1></div>
+                <div class="middle">
+                    <div class="square-box">
+                        <!-- <h1 id='1'></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="2"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="3"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="4"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="5"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="6"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="7"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="8"></h1> -->
+                    </div>
+                    <div class="square-box">
+                        <!-- <h1 id="9"></h1> -->
+                    </div>
+                </div>
+                <div class="last-part"><h1></h1></div>
+            </section>
+            <section id="show-winner">
+                <img src=""><span> is Winner</span>
+            </section>
+            <section>
+                <button  id='play-again'>Play Again</button>
+            </section>
+       </div>
+       <!-- game board section end -->
+        <button id='start'>Let's Start</button>
+    </main>
+    <script src='./script.js'></script>
+</body>
+</html>
