@@ -136,7 +136,9 @@ p:hover{
     background: #2a3f42;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .square-box h1{
     font-size: 30px;
@@ -160,6 +162,7 @@ p:hover{
     height: 90px;
     width: 90px;
     border-radius: 50%;
+    margin: 0 10px;
 }
 .board-player-1, .board-player-2{
     display:flex;
