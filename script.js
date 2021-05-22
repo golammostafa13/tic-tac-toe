@@ -189,6 +189,7 @@ function showResult(src){
     if(!src){
         showWinner.children[1].innerHTML = '';
         showWinner.children[1].innerHTML = 'MATCH DRAW';
+        showWinner.children[0].src = '';
         showWinner.children[0].src = 'http://getdrawings.com/image/poop-emoji-drawing-58.jpg';
     }
     else{
