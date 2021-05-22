@@ -190,7 +190,7 @@ function showResult(src){
         showWinner.children[1].innerHTML = '';
         showWinner.children[1].innerHTML = 'MATCH DRAW';
         showWinner.children[0].src = '';
-        showWinner.children[0].src = 'http://getdrawings.com/image/poop-emoji-drawing-58.jpg';
+        showWinner.children[0].src = 'https://img1.looper.com/img/gallery/what-critics-are-saying-about-the-emoji-movie/intro-1501191882.jpg';
     }
     else{
         showWinner.children[0].src = '';
